@@ -1,0 +1,39 @@
+body {
+	background-color: white;
+	color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  padding-bottom: 300px;
+}
+
+h1 {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 30px 50px;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.right{
+  float:right;
+}
+
+p {
+  padding: 0 50px;
+  font-size: 150px;
+}
+
+footer {
+  padding: 180px 60px;
+  padding-bottom: 0;
+}
+
+h2 {
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
