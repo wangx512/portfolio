@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   padding: 30px 50px;
   font-size: 45px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .right{
@@ -20,13 +20,13 @@ h1 {
 
 
 .part1 {
+	padding-top: 200px;
   display: grid;
-	grid-template-columns: 1fr 1.5fr;
-  padding: 300px 100px;
+	grid-template-columns: 0.8fr 2fr;
   grid-gap: 50px;
 }
 
 p {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
