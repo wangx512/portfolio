@@ -319,10 +319,14 @@ h2 {
 
   .s2{
     padding: 30px 10px 30px 10px;
-    display: grid;
+    display: block;
     margin: 0 10px;
     grid-template-columns: 1fr 2fr;
     font-size: 16px;
+  }
+
+  .des {
+    padding-top: 20px;
   }
 
   a{
@@ -361,35 +365,41 @@ h2 {
   }
 
   .user {
-    width: 450px;
+    width: 400px;
     margin-left: 0;
     padding-top: 30px;
   }
 
   .s4{
     padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
   }
 
   .takeaway1 {
     font-size: 18px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .takeaway2 {
-    font-size: 16px;
-    padding-bottom: 50px;
+    font-size: 18px;
+    padding-top: 0;
+    padding-bottom: 30px;
   }
 
   .takeaway3 {
-    font-size: 24px;
-    padding-bottom: 50px;
+    font-size: 18px;
+    padding-top: 0;
+    padding-bottom: 30px;
   }
 
 
   .s5 {
-    font-size: 36px;
+    font-size: 18px;
     text-align: center;
-    padding: 100px 400px 100px 400px;
+    padding: 30px 10px 30px 10px;
     color: #FAF9F6;
     background-color: black;
     line-height: 1.5;
@@ -400,7 +410,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-style: italic;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .goal1 {
@@ -418,67 +428,14 @@ h2 {
   }
 
   .overview{
-    padding-top: 100px;
-    font-size: 36px;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-  }
-
-  .swiper-wrapper {
-    position: relative;
-    width: 80%;
-    height: 80%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    box-sizing: content-box;
+    display: none;
   }
 
   .swiper-container{
-    width: 90%;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 560px;
+    display: none;
   }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 50%;
-  }
-
-  .s6 {
-    font-size: 36px;
-    text-align: center;
-    padding: 100px 400px 0 400px;
-    line-height: 1.5;
-  }
-
-  .onboard {
-    padding-top: 30px;
-    font-size: 24px;
-  }
-
-  .onboarding {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 50px 200px 100px 200px;
-  }
-
-  .web2 {
-    margin-top: 150px;
-    margin-left: 50px;
-  }
-
-  footer {
+footer {
     padding: 20px 50px 50px 50px;
   }
 
@@ -503,6 +460,5 @@ h2 {
   .right {
     transform: rotate(-45deg);
   }
-
 
 }
