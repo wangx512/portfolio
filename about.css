@@ -112,6 +112,31 @@ p {
 		padding: 10px;
 	}
 
+	html {
+		cursor: none;
+		overflow: hidden;
+	}
+
+	.pointer {
+		z-index: -1;
+		position: absolute;
+		height: 100%;
+		width: auto;
+		top: 100px;
+		left:0;
+		pointer-events: none;
+	}
+
+	.pointer img {
+		padding-top: 10px;
+		width: 100px;
+}
+
+	header{
+	  padding: 10px 10px 100px 10px;
+	}
+
+
 	.right{
 	  float:right;
 		margin-bottom: 0;
@@ -125,19 +150,17 @@ p {
 	}
 
 	.part1 {
-		padding: 30px 0;
+		padding: 50px 0;
 	}
 
 	p {
 		font-family: 'Playfair Display', serif;
 	  display: block;
 		padding-left: 10px;
-		margin-right: 90px;
+		margin-right: 86.5px;
 		padding-bottom: 0;
 	  font-size: 24px;
 		opacity: 1;
 	}
-
-
 
 }
