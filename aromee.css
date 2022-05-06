@@ -1,0 +1,105 @@
+body {
+	background-color: #FAF9F6;
+	color: black;
+  font-family: 'Poppins', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+header{
+  background-color: #FAF9F6;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+h1 {
+  float: left;
+  display: ;
+  text-align: center;
+  padding: 20px 50px 10px 50px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.information {
+  float:right;
+  margin-left: 50px;
+}
+
+section{
+  padding: 250px 50px 50px 50px;
+  display: grid;
+  margin: 0 150px;
+  grid-template-columns: 2fr 2fr;
+  font-size: 24px;
+}
+
+.intro {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.role {
+  font-size: 18px;
+}
+
+#project {
+  font-size: 36px;
+  text-align: center;
+  padding: 100px 400px 100px 400px;
+  color: #FAF9F6;
+  background-color: #A47F48;
+  line-height: 1.5;
+}
+
+.parallax {
+  background-image: url("aromee.gif");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s2{
+  padding: 100px 50px 100px 50px;
+  display: grid;
+  margin: 0 150px;
+  grid-template-columns: 2fr 2fr;
+  font-size: 24px;
+}
+
+a{
+  text-decoration: underline;
+}
+
+footer {
+  padding: 20px 50px 50px 50px;
+}
+
+h2 {
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}

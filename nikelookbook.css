@@ -59,7 +59,7 @@ section{
 
 .parallax {
   background-image: url("nike.jpg");
-  min-height: 500px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -282,9 +282,8 @@ h2 {
 
   section{
     padding: 130px 10px 30px 10px;
-    display: grid;
+    display: block;
     margin: 0 10px;
-    grid-template-columns: 1fr 2fr;
     font-size: 18px;
   }
 
@@ -295,8 +294,12 @@ h2 {
     font-style: italic;
   }
 
+  .projectintro {
+    padding-top: 20px;
+  }
+
   .role {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #project {
@@ -334,7 +337,7 @@ h2 {
   }
 
   .s3{
-    display: block;
+    display: inline-block;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -374,7 +377,6 @@ h2 {
     padding-top: 30px;
     padding-bottom: 30px;
     display: block;
-    text-align: center;
   }
 
   .takeaway1 {
@@ -427,6 +429,77 @@ h2 {
     margin-right: 50px;
   }
 
+  .n1 {
+    width: 500px;
+    height: auto;
+  }
+
+  .match {
+    width: 900px;
+    height: auto;
+  }
+
+  .n2 {
+    width: 750px;
+    height: auto;
+  }
+
+  .complete {
+    width: 850px;
+    height: auto;
+  }
+
+
+  .n3 {
+    width: 650px;
+    height: auto;
+  }
+
+  .lookbook {
+    width: 450px;
+    height: auto;
+  }
+
+  .swipe {
+    width: 580px;
+    height: auto;
+  }
+
+  .add{
+    width: 700px;
+    height: auto;
+  }
+
+  .n4 {
+    width: 500px;
+    height: auto;
+  }
+
+  .bag {
+    width: 850px;
+    height: auto;
+  }
+
+
+  .n5 {
+    width: 750px;
+    height: auto;
+  }
+
+  .custom {
+    width: 650px;
+    height: auto;
+  }
+
+
+  .p1 {
+    display: inline-flex;
+  }
+
+  .p2 {
+    display: inline-flex;
+  }
+
   .overview{
     display: none;
   }
@@ -435,7 +508,31 @@ h2 {
     display: none;
   }
 
-footer {
+  .s6 {
+    padding: 30px 0;
+  }
+
+  .onboard {
+    font-size: 16px;
+    margin: 0 20px;
+  }
+
+  .onboarding {
+    display: inline-block;
+    padding: 30px 10px 30px 10px;
+  }
+
+  .web1 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .web2 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  footer {
     padding: 20px 50px 50px 50px;
   }
 
@@ -460,5 +557,6 @@ footer {
   .right {
     transform: rotate(-45deg);
   }
+
 
 }
