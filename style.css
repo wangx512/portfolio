@@ -29,20 +29,19 @@ header{
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 5s linear infinite;
+  animation: marquee 3s linear infinite;
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-45%); }
+  from { transform: translateX(5%); }
+  to { transform: translateX(-40%); }
 }
 
 
 h1 {
   float: left;
-  display: ;
   text-align: center;
-  padding: 40px 50px;
+  padding: 20px 50px;
   font-size: 45px;
   font-weight: 400;
 }
@@ -153,4 +152,142 @@ h2 {
   display: block;
   text-align: center;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 390px) {
+
+	body {
+		height: 100%;
+		width: 100%;
+	}
+
+	header{
+	  padding-bottom: 100px;
+	}
+
+	h1 {
+	  float: left;
+	  font-size: 30px;
+		padding: 10px;
+	}
+
+	.right{
+	  float:right;
+		margin-bottom: 0;
+	}
+
+	.marquee {
+	  font-size: 30px;
+	  height: 50px;
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	.track {
+	  white-space: nowrap;
+	  will-change: transform;
+	  animation: marquee 3s linear infinite;
+	}
+
+	@keyframes marquee {
+	  from { transform: translateX(5%); }
+	  to { transform: translateX(-55%); }
+	}
+
+	.indication{
+		font-size: 24px;
+		padding-top: 20px;
+		padding-left: 140px;
+	}
+
+	.project{
+	  padding: 0;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		font-size: 40px;
+		display: inline-flex;
+		position: inherit;
+}
+
+	ul li span {
+		cursor: none;
+		z-index: 1;
+	}
+
+	.hover ul li img{
+		visibility: visible;
+		position: absolute;
+		bottom: 100%;
+		left: 0;
+		z-index: 1;
+		transition: none;
+		transform: none;
+	}
+
+	.hover ul li:hover img{
+		visibility: visible;
+		transform: none;
+	}
+
+	.hover ul:hover span{
+		opacity: 1;
+	}
+
+	.hover ul li:hover span{
+		opacity: 1;
+	}
+
+	.nike {
+		width: 100%;
+		height: 100%;
+		height: auto;
+		object-fit: fill;
+		top: calc(27%);
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.aromee {
+		width: 100%;
+		height: 100%;
+		height: auto;
+		object-fit: fill;
+		top: calc(48%);
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.digital {
+		width: 100%;
+		height: 100%;
+		height: auto;
+		object-fit: fill;
+		top: calc(70%);
+	}
+
+	.project-left {
+		display: none;
+	}
+
+	.project-right {
+		display: none;
+	}
+
+	.intro {
+		display: none;
+	}
+
+	h2 {
+		padding-top: 170px;
+		padding-right: 85px;
+		float: right;
+	  display: flex;
+	  font-size: 24px;
+	}
+
 }
